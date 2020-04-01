@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  // tslint:disable-next-line: object-literal-sort-keys
+  styleUrls: [ './app.component.css' ],
 })
 export class AppComponent  {}
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
